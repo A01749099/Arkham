@@ -1,0 +1,23 @@
+# Entornos virtuales
+.env
+venv/
+.venv/
+
+# Cache de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs locales
+*.log
+
+# Datos locales (se usan GCS en producción)
+data/
+
+# Archivos de desarrollo
+.git/
+.gitignore
+*.md
+
+# VS Code
+.vscode/
